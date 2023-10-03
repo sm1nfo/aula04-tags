@@ -1,0 +1,124 @@
+header {
+    background-color: rgb(71, 48, 20);
+    color: white;
+    padding: 30px;
+    position: relative;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1em;
+}
+
+p {
+    margin: 6px 10px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2em;
+    padding: 8px;
+}
+
+h3 {
+    text-align: center;
+    padding-block: 25px 5px;
+}
+
+body {
+    background-color: bisque;
+    margin: 0;
+}
+
+aside {
+    width: fit-content;
+}
+
+aside,
+main,
+article {
+    background-color: rgb(255, 206, 147);
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    margin: 6px;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: rgb(71, 48, 20);
+    color: whitesmoke;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: medium;
+}
+
+figure article {
+    display: none;
+}
+
+img {
+    width: 450px;
+}
+
+article:nth-child(even) {
+    background-color: rgb(255, 206, 147);
+}
+
+article:nth-child(odd) {
+    background-color: rgb(247, 187, 114);
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    background-color: rgb(255, 206, 147);
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    margin: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+    border: 2px solid rgb(247, 187, 114);
+    border-radius: 4px;
+    font-size: medium;
+}
+
+nav ul li:hover {
+    background-color: #674419;
+    color: whitesmoke;
+}
+
+.menuzinho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: rgb(71, 48, 20);
+    border-radius: 4px;
+}
+
+.cabecinha {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    max-height: fit-content;
+    padding: 12px;
+    font-size: normal;
+}
+
+details {
+    padding: 6px;
+}
+
+a {
+    color: black;
+}
